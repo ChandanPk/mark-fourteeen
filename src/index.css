@@ -1,13 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background-color: rgb(238, 231, 231);
+  color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+section {
+  width: 90%;
+  /* height: 550px; */
+  padding: 1rem 0;
+  max-width: 1200px;
+  border: 2px solid black;
+  margin: auto;
+  margin-top: 4rem;
+  /* background-image: url("https://images.unsplash.com/photo-1431274172761-fca41d930114?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80"); */
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: black;
+  box-shadow: 0px 10px 16px -8px rgba(0,0,0,0.75);
+  border-radius: 4px;
+
+
+}
+
+.nav-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid-child {
+  margin: 5px;
+}
+
+#title {
+  text-align: left;
+  margin: 50px 50px;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 0.5em 0.8em;
+  font-size: 0.9em;
+}
+
+form {
+  text-align: center;
+  max-width: 55%;
+}
+
+input {
+  width: 300px;
+  display: inline-block;
+  padding: 1rem 0.5rem 0 0;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: none;
+  color: #fff;
+
+}
+
+span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.fields-div {
+  width: 66%;
+  margin: auto auto auto 5rem;
+  text-align: left;
+}
+
+.fields {
+  border: none;
+  border-bottom: 1px solid rgb(194, 194, 188);
+  margin-top: 2rem;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+h2 {
+  font-weight: 300;
+  font-size: larger;
+}
+
+.results {
+  text-align: left;
+  margin: 1rem;
+  /* border: 1px solid #888; */
+  display: inline-block;
+  padding: 0 1.3rem;
+  background-color: rgb(43, 41, 41);
+}
+
+.jackpot {
+  background-image: url("https://media.giphy.com/media/UurMzl2Xbo7AuVigoh/giphy.gif");
+}
+
+.loss-img {
+  background-image: url("https://media.giphy.com/media/j3EExPtEdN2tbJL79M/giphy.gif");
 }
