@@ -40,8 +40,6 @@ const Home = () => {
             let earning = currentvalue - invest;
             var percentageBoost = ((earning / invest) * 100).toFixed(2);
                        
-                console.log(percentageBoost);
-                console.log(earning);
                 setPercentage(percentageBoost);
                 setProfitted(true);
                 setGaining(earning);
@@ -62,7 +60,6 @@ const Home = () => {
             var lost = currentvalue - invest;
             let percentageL = ((lost / invest) * 100).toFixed(2);
 
-                console.log(percentageL);
                 setPercentageLost(Math.abs(percentageL))
                 setGaining(Math.abs(lost));
                 setIsLosted(true);
