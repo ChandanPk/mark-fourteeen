@@ -48,6 +48,10 @@ button {
   font-size: 0.9em;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 form {
   text-align: center;
   max-width: 55%;
