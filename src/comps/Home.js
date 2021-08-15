@@ -78,9 +78,9 @@ const Home = () => {
     return ( 
         <section className={image}>
                 <div className="nav-grid">
-                    <p className="grid-child">Logo</p>
-                    <p className="grid-child">Github Repo</p>
-                    <p className="grid-child">Contact</p>
+                    <a href="#" className="grid-child">Logo</a>
+                    <a href="https://github.com/ChandanPk/mark-14" className="grid-child">Github Repo</a>
+                    <a href="#" className="grid-child">Contact</a>
                 </div>
             
              <form onSubmit={(e)=> {handleSubmit(e)}}>               
