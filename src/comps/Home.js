@@ -32,7 +32,6 @@ const Home = () => {
     // logic
     const handleSubmit = (e)=> {
         e.preventDefault();
-        console.log("hillo");
 
         if (purchaseAmt <= currentAmt) {
             let invest = purchaseAmt * quantity;
