@@ -77,9 +77,9 @@ const Home = () => {
     return ( 
         <section className={image}>
                 <div className="nav-grid">
-                    <a href="#" className="grid-child">Logo</a>
-                    <a href="https://github.com/ChandanPk/mark-14" className="grid-child">Github Repo</a>
-                    <a href="#" className="grid-child">Contact</a>
+                    <a href="#home" className="grid-child">Logo</a>
+                    <a href="https://github.com/ChandanPk/mark-fourteeen" className="grid-child">Github Repo</a>
+                    <a href="https://chandankumar-portfolio.netlify.app/" className="grid-child">Portfolio</a>
                 </div>
             
              <form onSubmit={(e)=> {handleSubmit(e)}}>               
